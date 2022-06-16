@@ -32,17 +32,17 @@ img{display: block;}
     margin: -1px;
   }
 
-  .container{width: 1200px;
+  .container{width: 1170px;
     margin: 0 auto;
+    padding-left: 15px;;
+    padding-right: 15px;
   }
   /* ------Header*/
   .header{
       padding-top: 24px;
       padding-bottom: 25px;
       border-bottom: 1px solid #ECECEC;
-      padding-left: 15px;
-      padding-right: 15px;
-  }
+        }
   .header-content{
       display: flex;
       align-items: center;
@@ -151,8 +151,7 @@ border-radius: 4px;
 .advantage{
 padding-top: 94px;
 padding-bottom: 94px;
-padding-left: 15px;
-padding-right: 15px;
+
 }
 .advantage-list{
     display: flex;
@@ -182,8 +181,7 @@ letter-spacing: 0.03em;
 .activities{
     padding-top: 0;
     padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
+   
 }
 .activities-list{
     display: flex;
@@ -206,8 +204,7 @@ letter-spacing: 0.03em;
     background-color: var(--main-accent-color);
     padding-top: 89px;
     padding-bottom: 89px;
-    padding-left: 15px;
-    padding-right: 15px;
+    
 
 }
 .team-list{
@@ -266,8 +263,7 @@ color: var(--header-tel-color);
 .portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
+    
 }
 .portfolio-list-btn{
     display: flex;
@@ -278,7 +274,6 @@ color: var(--header-tel-color);
     margin-bottom: 0 auto;
 }
 .portfolio-item-title{
-    margin-top: 30px;
     margin-bottom: 4px;
 }
 .portfolio-btn-title:not(:first-child){
@@ -317,12 +312,11 @@ align-items: center;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--header-color);
-    
-    
 }
 .portfolio-paragraf{
     padding-left: 24px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 .portfolio-item-text{
     font-weight: 400;
@@ -337,16 +331,13 @@ align-items: center;
     margin: -15px;
 } 
 .portfolio-list-item{
-    width: calc(100%/3 -30px);
+    display: block;
+    width: 370px;
     margin: 15px;
     background: #FFFFFF;
+    box-sizing: border-box;
     border: 1px solid #EEEEEE;
 }
-
-
-
-
-
 /*-------Footer*/
 .main-footer{
     background-color:#2F303A;
